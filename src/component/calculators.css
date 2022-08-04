@@ -1,0 +1,45 @@
+.CalContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Input {
+    height: 45px;
+    text-align: end;
+    padding: 5px 10px;
+    border: none;
+    background-color: #858694;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+  .Input::placeholder {
+    color: white;
+  }
+  
+  .BtnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: grey;
+    gap: 1px;
+    padding: 1px;
+  }
+  
+  .Btn {
+    min-width: 80px;
+    max-width: 100%;
+    height: 45px;
+    border: none;
+  }
+  
+  .Grey {
+    background-color: #e0e0e0;
+  }
+  
+  .Orange {
+    background-color: #f5913e;
+  }
+  
+  .ColTwo {
+    grid-area: auto / span 2;
+  }
